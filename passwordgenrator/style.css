@@ -1,0 +1,143 @@
+body{
+    margin: auto;
+}
+
+.container{
+    width: 100vw;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: blueviolet;
+    
+}
+
+.bold{
+   font-size: xx-large; 
+   font-weight: bolder;
+   font-style: italic;
+   border-bottom: solid black 2px;
+   
+}
+
+#password{
+    margin: 20px;
+    height: 5vh;
+    width: 40vw;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+
+}
+#generate{
+        height: 5vh;
+        width: 10vw;
+        border: 2px solid black;
+        border-radius: 10px;
+        background-color: bisque;
+        margin: 2px;
+}
+#copy{
+    height: 5vh;
+    width: 10vw;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: bisque;
+    margin: 2px;
+
+}
+#save{
+
+    height: 5vh;
+    width: 10vw;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: bisque;
+    margin: 2px;
+
+}
+#cleartable{
+    height: 5vh;
+    width: 10vw;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: bisque;
+    margin: 2px;
+    
+}
+#generate:hover{
+    cursor: pointer;
+    background-color: gainsboro;
+}
+#copy:hover{
+    cursor: pointer;
+    background-color: gainsboro;
+}
+#save:hover{
+    cursor: pointer;
+    background-color: gainsboro;
+}
+#cleartable:hover{
+    cursor: pointer;
+    background-color: gainsboro;
+}
+
+#box{
+    margin: 60px;
+    border: 2px solid black;
+    width: 50vw;
+    border-radius: 20px;
+    background-color: azure;
+    
+}
+
+.heading{
+    font-size: larger;
+    font-weight: bolder;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+li{
+    width: 20%;
+    text-align: center;
+}
+ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    
+}
+.removeheader{
+    color: black;
+    width: 2vw;
+    height: 4vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.remove{
+    color: black;
+    width: 2vw;
+    height: 4vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+.remove:hover{
+    color: red;
+    cursor: pointer;
+    background-color: lightgrey;
+    border-radius: 50%;
+}
